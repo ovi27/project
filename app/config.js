@@ -1,4 +1,4 @@
 module.exports = {
-    DB: 'mongodb://localhost:27017/todos',
+    DB: 'mongodb://ovi_acm:Drinceanu1@ds131601.mlab.com:31601/todo',
     APP_PORT: 4000
   };
