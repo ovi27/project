@@ -27,7 +27,7 @@ app.listen(port) // Listen on port defined in config file
 
 console.log('App listening on port ' + port);
 
-var todoRoutes = require('./app/Routes');
+var todoRoutes = require('./app/routes.js');
 
 //  Use routes defined in Route.js and prefix it with api
 app.use('/api', todoRoutes);

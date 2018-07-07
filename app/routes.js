@@ -2,7 +2,7 @@ var express = require('express');
 
 var todoRoutes = express.Router();
 
-var Todo = require('./Todo');
+var Todo = require('./todo.js');
 
 // get all todos in the db
 
